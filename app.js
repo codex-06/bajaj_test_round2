@@ -9,12 +9,12 @@ app.use(bodyParser.json());
 
 
 
-app.get('/api', (req, res) => {
+app.get('/bfhl', (req, res) => {
   res.json({ operation_code: 1 });
 });
 
 
-app.post('/api', (req, res) => {
+app.post('/bfhl', (req, res) => {
   try {
     const data = req.body.data;
 
